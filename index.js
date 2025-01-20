@@ -88,6 +88,10 @@ new E(".panorama-slider .swiper", {
     dynamicBullets: !0,
     dynamicMainBullets: 3,
   },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
   panoramaEffect: { depth: 150, rotate: 45 },
   breakpoints: {
     480: { slidesPerView: 2, panoramaEffect: { rotate: 35, depth: 150 } },
