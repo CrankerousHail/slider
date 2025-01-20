@@ -80,7 +80,7 @@ new E(".panorama-slider .swiper", {
   centeredSlides: !0,
   grabCursor: !0,
   autoplay: {
-	delay: 3000, 
+	delay: 100, 
 	disableOnInteraction: false,
   },
   pagination: {
