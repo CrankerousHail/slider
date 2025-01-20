@@ -74,7 +74,7 @@ function b({ swiper: a, extendParams: s, on: o }) {
 new E(".panorama-slider .swiper", {
   modules: [S, b],
   effect: "panorama",
-  slidesPerView: 10,
+  slidesPerView: 1.5,
   loop: !0,
   loopAdditionalSlides: 1,
   centeredSlides: !0,
